@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My HTML Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- Your HTML content goes here -->
+	<script>
+		// Your JavaScript code goes here
+	</script>
+</body>
+</html>/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 1em;
+    text-align: center;
+}
+
+/* Logo styles */
+#logo {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Search form styles */
+#search-form {
+    margin-top: 1em;
+}
+
+#search-bar {
+    padding: 0.5em;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Change background color when focused */
+#search-bar:focus {
+    background-color: #e0f7fa; /* Light cyan background color */
+    outline: none; /* Remove default outline */
+}
+
+#search-form button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    background-color: #555;
+}
+
+/* Icon styles */
+#icons {
+    margin-top: 1em;
+}
+
+#icons i {
+    font-size: 1.5em;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Sub-navigation styles */
+#sub-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1em;
+}
+
+#sub-nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#sub-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+#sub-nav ul li a:hover {
+    background-color: #e0f7fa; /* Light cyan background color */
+}
+
+/* Hero section styles */
+#hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#hero-image {
+    width: 100%;
+    height: auto;
+}
+
+#hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+nav ul li a:hover {
+    background-color: #e0f7fa; /* Light cyan background color */
+}
+
+/* Section styles */
+section {
+    margin: 1em 0;
+}
+
+/* Center content in the main section */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media query for screens less than 640px */
+@media (max-width: 640px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
